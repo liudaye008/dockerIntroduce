@@ -111,3 +111,5 @@ index index.php index.html index.htm index.nginx-debian.html;
 
     推送镜像：
     docker push rongxing/ubuntulnmp:1.0
+    
+###  切记，不可把数据库连接信息等服务器敏感信息放置于docker中！！！
