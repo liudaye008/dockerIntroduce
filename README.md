@@ -104,7 +104,7 @@ index index.php index.html index.htm index.nginx-debian.html;
     保存本地镜像：
     docker commit -m "提交信息" --author "作者" 镜像id  新镜像名
     
-    本地保存好镜像后，去[https://hub.docker.com/](https://hub.docker.com/)建立远程仓库
+    本地保存好镜像后，去 [link](https://hub.docker.com/) 建立远程仓库
     
     修改本地镜像名称与远程仓库一致：
     docker commit -m '修改本地镜像名称' -a '荣兴' 4c6b397d0c8f rongxing/ubuntulnmp:1.0
